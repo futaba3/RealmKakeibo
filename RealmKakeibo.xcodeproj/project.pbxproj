@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		85B31A6A2A8E7104007FBD0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B31A692A8E7104007FBD0E /* AppDelegate.swift */; };
 		85B31A6C2A8E7104007FBD0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B31A6B2A8E7104007FBD0E /* SceneDelegate.swift */; };
-		85B31A6E2A8E7104007FBD0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B31A6D2A8E7104007FBD0E /* ViewController.swift */; };
+		85B31A6E2A8E7104007FBD0E /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B31A6D2A8E7104007FBD0E /* ItemViewController.swift */; };
 		85B31A712A8E7104007FBD0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B31A6F2A8E7104007FBD0E /* Main.storyboard */; };
 		85B31A732A8E7106007FBD0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B31A722A8E7106007FBD0E /* Assets.xcassets */; };
 		85B31A762A8E7106007FBD0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B31A742A8E7106007FBD0E /* LaunchScreen.storyboard */; };
@@ -22,6 +22,9 @@
 		85B31AA22A8E7CC1007FBD0E /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B31AA02A8E7CC1007FBD0E /* ItemTableViewCell.swift */; };
 		85B31AA32A8E7CC1007FBD0E /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B31AA12A8E7CC1007FBD0E /* ItemTableViewCell.xib */; };
 		85DB3E2A2A8FBD2E00C7F05A /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DB3E292A8FBD2E00C7F05A /* NewItemViewController.swift */; };
+		85DB3E2C2A8FC42A00C7F05A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DB3E2B2A8FC42A00C7F05A /* Category.swift */; };
+		85DB3E2E2A8FC78800C7F05A /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DB3E2D2A8FC78800C7F05A /* CategoryViewController.swift */; };
+		85DB3E302A8FCB6E00C7F05A /* NewCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DB3E2F2A8FCB6E00C7F05A /* NewCategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +48,7 @@
 		85B31A662A8E7104007FBD0E /* RealmKakeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmKakeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B31A692A8E7104007FBD0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85B31A6B2A8E7104007FBD0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		85B31A6D2A8E7104007FBD0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85B31A6D2A8E7104007FBD0E /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		85B31A702A8E7104007FBD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85B31A722A8E7106007FBD0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85B31A752A8E7106007FBD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +62,9 @@
 		85B31AA02A8E7CC1007FBD0E /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		85B31AA12A8E7CC1007FBD0E /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
 		85DB3E292A8FBD2E00C7F05A /* NewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
+		85DB3E2B2A8FC42A00C7F05A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		85DB3E2D2A8FC78800C7F05A /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		85DB3E2F2A8FCB6E00C7F05A /* NewCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +119,7 @@
 			children = (
 				85B31A692A8E7104007FBD0E /* AppDelegate.swift */,
 				85B31A6B2A8E7104007FBD0E /* SceneDelegate.swift */,
-				85B31A6D2A8E7104007FBD0E /* ViewController.swift */,
+				85B31A6D2A8E7104007FBD0E /* ItemViewController.swift */,
 				85B31A6F2A8E7104007FBD0E /* Main.storyboard */,
 				85B31A722A8E7106007FBD0E /* Assets.xcassets */,
 				85B31A742A8E7106007FBD0E /* LaunchScreen.storyboard */,
@@ -122,6 +128,9 @@
 				85B31AA02A8E7CC1007FBD0E /* ItemTableViewCell.swift */,
 				85B31AA12A8E7CC1007FBD0E /* ItemTableViewCell.xib */,
 				85DB3E292A8FBD2E00C7F05A /* NewItemViewController.swift */,
+				85DB3E2B2A8FC42A00C7F05A /* Category.swift */,
+				85DB3E2D2A8FC78800C7F05A /* CategoryViewController.swift */,
+				85DB3E2F2A8FCB6E00C7F05A /* NewCategoryViewController.swift */,
 			);
 			path = RealmKakeibo;
 			sourceTree = "<group>";
@@ -283,11 +292,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				85B31A9F2A8E7812007FBD0E /* ShoppingItem.swift in Sources */,
-				85B31A6E2A8E7104007FBD0E /* ViewController.swift in Sources */,
+				85DB3E302A8FCB6E00C7F05A /* NewCategoryViewController.swift in Sources */,
+				85B31A6E2A8E7104007FBD0E /* ItemViewController.swift in Sources */,
 				85DB3E2A2A8FBD2E00C7F05A /* NewItemViewController.swift in Sources */,
 				85B31AA22A8E7CC1007FBD0E /* ItemTableViewCell.swift in Sources */,
+				85DB3E2E2A8FC78800C7F05A /* CategoryViewController.swift in Sources */,
 				85B31A6A2A8E7104007FBD0E /* AppDelegate.swift in Sources */,
 				85B31A6C2A8E7104007FBD0E /* SceneDelegate.swift in Sources */,
+				85DB3E2C2A8FC42A00C7F05A /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
