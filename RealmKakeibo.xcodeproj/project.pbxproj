@@ -18,6 +18,10 @@
 		85B31A8D2A8E7107007FBD0E /* RealmKakeiboUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B31A8C2A8E7107007FBD0E /* RealmKakeiboUITestsLaunchTests.swift */; };
 		85B31A9B2A8E736F007FBD0E /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 85B31A9A2A8E736F007FBD0E /* Realm */; };
 		85B31A9D2A8E736F007FBD0E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 85B31A9C2A8E736F007FBD0E /* RealmSwift */; };
+		85B31A9F2A8E7812007FBD0E /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B31A9E2A8E7812007FBD0E /* ShoppingItem.swift */; };
+		85B31AA22A8E7CC1007FBD0E /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B31AA02A8E7CC1007FBD0E /* ItemTableViewCell.swift */; };
+		85B31AA32A8E7CC1007FBD0E /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B31AA12A8E7CC1007FBD0E /* ItemTableViewCell.xib */; };
+		85DB3E2A2A8FBD2E00C7F05A /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DB3E292A8FBD2E00C7F05A /* NewItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		85B31A862A8E7107007FBD0E /* RealmKakeiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmKakeiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B31A8A2A8E7107007FBD0E /* RealmKakeiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmKakeiboUITests.swift; sourceTree = "<group>"; };
 		85B31A8C2A8E7107007FBD0E /* RealmKakeiboUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmKakeiboUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85B31A9E2A8E7812007FBD0E /* ShoppingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
+		85B31AA02A8E7CC1007FBD0E /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		85B31AA12A8E7CC1007FBD0E /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		85DB3E292A8FBD2E00C7F05A /* NewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,10 @@
 				85B31A722A8E7106007FBD0E /* Assets.xcassets */,
 				85B31A742A8E7106007FBD0E /* LaunchScreen.storyboard */,
 				85B31A772A8E7106007FBD0E /* Info.plist */,
+				85B31A9E2A8E7812007FBD0E /* ShoppingItem.swift */,
+				85B31AA02A8E7CC1007FBD0E /* ItemTableViewCell.swift */,
+				85B31AA12A8E7CC1007FBD0E /* ItemTableViewCell.xib */,
+				85DB3E292A8FBD2E00C7F05A /* NewItemViewController.swift */,
 			);
 			path = RealmKakeibo;
 			sourceTree = "<group>";
@@ -242,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B31AA32A8E7CC1007FBD0E /* ItemTableViewCell.xib in Resources */,
 				85B31A762A8E7106007FBD0E /* LaunchScreen.storyboard in Resources */,
 				85B31A732A8E7106007FBD0E /* Assets.xcassets in Resources */,
 				85B31A712A8E7104007FBD0E /* Main.storyboard in Resources */,
@@ -269,7 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B31A9F2A8E7812007FBD0E /* ShoppingItem.swift in Sources */,
 				85B31A6E2A8E7104007FBD0E /* ViewController.swift in Sources */,
+				85DB3E2A2A8FBD2E00C7F05A /* NewItemViewController.swift in Sources */,
+				85B31AA22A8E7CC1007FBD0E /* ItemTableViewCell.swift in Sources */,
 				85B31A6A2A8E7104007FBD0E /* AppDelegate.swift in Sources */,
 				85B31A6C2A8E7104007FBD0E /* SceneDelegate.swift in Sources */,
 			);
