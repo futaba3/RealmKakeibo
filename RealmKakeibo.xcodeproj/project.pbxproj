@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8545A0402B941123002ABDC9 /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8545A03F2B941123002ABDC9 /* UIView+Shadow.swift */; };
 		85B31A6A2A8E7104007FBD0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B31A692A8E7104007FBD0E /* AppDelegate.swift */; };
 		85B31A6C2A8E7104007FBD0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B31A6B2A8E7104007FBD0E /* SceneDelegate.swift */; };
 		85B31A6E2A8E7104007FBD0E /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B31A6D2A8E7104007FBD0E /* ItemViewController.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8545A03F2B941123002ABDC9 /* UIView+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
 		85B31A662A8E7104007FBD0E /* RealmKakeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmKakeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B31A692A8E7104007FBD0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85B31A6B2A8E7104007FBD0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				85DB3E2B2A8FC42A00C7F05A /* Category.swift */,
 				85DB3E2D2A8FC78800C7F05A /* CategoryViewController.swift */,
 				85DB3E2F2A8FCB6E00C7F05A /* NewCategoryViewController.swift */,
+				8545A03F2B941123002ABDC9 /* UIView+Shadow.swift */,
 			);
 			path = RealmKakeibo;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				85DB3E302A8FCB6E00C7F05A /* NewCategoryViewController.swift in Sources */,
 				85B31A6E2A8E7104007FBD0E /* ItemViewController.swift in Sources */,
 				85DB3E2A2A8FBD2E00C7F05A /* NewItemViewController.swift in Sources */,
+				8545A0402B941123002ABDC9 /* UIView+Shadow.swift in Sources */,
 				85B31AA22A8E7CC1007FBD0E /* ItemTableViewCell.swift in Sources */,
 				85DB3E2E2A8FC78800C7F05A /* CategoryViewController.swift in Sources */,
 				85B31A6A2A8E7104007FBD0E /* AppDelegate.swift in Sources */,
