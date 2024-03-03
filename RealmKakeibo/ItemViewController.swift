@@ -21,6 +21,7 @@ class ItemViewController: UIViewController, UITableViewDataSource {
         
         tableView.dataSource = self
         tableView.register(UINib(nibName: "ItemTableViewCell", bundle: nil), forCellReuseIdentifier: "ItemCell")
+        tableView.separatorStyle = .none
         items = readItems()
         navigationItem.title = selectedCategory.title
     }
