@@ -9,13 +9,16 @@ import UIKit
 
 class ItemTableViewCell: UITableViewCell {
     
+    @IBOutlet var containerView: UIView!
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var priceLabel: UILabel!
     @IBOutlet var markImageView: UIImageView!
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        self.containerView.layer.cornerRadius = 8
+        self.containerView.layer.masksToBounds = true
+        containerView.applyShadow(cornerRadius: 8)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
